@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+
+
+/* FONTS */
+@font-face {
+    font-family: calistoga ;
+    src: url(/assets/fonts/Calistoga-Regular.ttf);
+}
+@font-face {
+    font-family: roboto ;
+    src: url(/assets/fonts/Roboto-Regular.ttf);
+}
+
+
+/* WEATHER DETAILS */
+.grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+text-align: start;
+font-family: roboto;
+gap: 10px;
+color: wheat;
+font-size: 20px;
+align-items: center;
+margin-left: 60px;
+}
+.gridTabelle {
+background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+.grid p {
+color: #FFFFFF;
+text-shadow: 2px 1px 0 #141212;
+}
+
+
+/* DISPLAY // HEADER */
+.display{
+box-sizing: border-box;
+display:flex;
+justify-content: center;
+align-items: center;
+color: #182848;
+}
+h2 {
+font-size: 50px;
+margin-top: 5px;
+font-family: calistoga;
+color: #182848;
+margin-top: 20px;
+}
+h5 {
+font-size: 20px;
+margin: 0;
+margin-bottom: 10px;
+font-family: roboto;
+color: #182848;
+}
+img {
+margin-top: 20px;
+}
+h1 {
+font-size: 80px;
+margin: 0;
+font-family: roboto;
+color: #182848;
+}
+section {
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+font-family: roboto;
+}
+.output {
+border-radius: 0 0px 30px 30px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+color: #182848;
+background-color: rgb(255, 255, 255);
+}
+
+
+/* FOOTER INPUT AND SEARCH ICON */
+#inputCity{
+text-align: start;
+font-size: 25px;
+padding: 15px ;
+width: 80%;
+border: none;
+margin-top: 10px;
+}
+img {
+margin: 0;
+margin-left: 5px;
+margin-right: 15px;
+}
+.button{
+background-color:#ffffff;
+padding: 19px 5px;
+}
+.footerSearch {
+display: flex;
+color: #182848;
+}
