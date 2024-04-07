@@ -107,3 +107,7 @@ padding: 19px 5px;
 display: flex;
 color: #182848;
 }
+
+.searchPic {
+    cursor: pointer;
+}
