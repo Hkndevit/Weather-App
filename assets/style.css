@@ -16,13 +16,14 @@
 }
 
 
+
 /* WEATHER DETAILS */
 .grid {
 display: grid;
 grid-template-columns: repeat(3, 1fr);
 text-align: start;
 font-family: roboto;
-gap: 10px;
+gap: 5px;
 color: wheat;
 font-size: 20px;
 align-items: center;
@@ -46,7 +47,7 @@ align-items: center;
 color: #182848;
 }
 h2 {
-font-size: 50px;
+font-size: 30px;
 margin-top: 5px;
 font-family: calistoga;
 color: #182848;
@@ -91,6 +92,7 @@ padding: 15px ;
 width: 80%;
 border: none;
 margin-top: 10px;
+margin-bottom: 10px;
 }
 img {
 margin: 0;

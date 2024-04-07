@@ -42,8 +42,13 @@ if (event.keyCode === 13) {
 })
 
 
+
+
+
+
 // INPUT CITYNAME FUNCTION
-const weatherData = (latt = 50.935173, lonn= 6.953101
+const weatherData = (
+    latt = 50.935173, lonn= 6.953101
     ) => {
     fetch (
         `http://api.openweathermap.org/geo/1.0/direct?q=${cityName.value}&appid=ad40156081ccf45f87145fcb49f2d145`)
@@ -120,4 +125,6 @@ const weatherData = (latt = 50.935173, lonn= 6.953101
     })
 };
 
-weatherData();
+document.addEventListener("DOMContentLoaded", function() {
+    weatherData("New York");
+});
